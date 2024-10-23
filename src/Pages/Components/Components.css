@@ -1,0 +1,62 @@
+.components {
+    background-image: url('./public/background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
+    min-width: 800px;
+
+    border-bottom: 1px solid rgb(173, 173, 173);
+    margin-bottom: 0.5rem;
+}
+
+.g0,.g5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .g00{
+    display: grid;
+  }
+  .g1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  
+  .g2{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+  }
+  
+  .g3{
+    display: flex;
+    margin-right: auto;
+    align-items: flex-start;
+  }
+  
+  .ab > span{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .span{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .span span{
+    pointer-events: none;
+  }
+  
+  .cc span{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .badgeg{
+    margin: 3rem;
+  }
